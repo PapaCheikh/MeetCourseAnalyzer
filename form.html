@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="form.css">
+
+    <script type="text/javascript">
+      if(document.querySelector('#id').value != 'GNINGUE' && document.querySelector('#password').value != 'passer') {
+        alert("Vous n'avez pas accès à cette extension !");
+      }
+    </script>
+    
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="title"> AUTHENTFIFCATION </div><br>
+    <form>
+      <div class="field">
+        <input type="text" id="id" placeholder="Entrer votre nom d'utilisateur" required>
+      </div><br>
+      <div class="field">
+        <input type="password" id="password" placeholder="Entrer votre mot de passe" required>
+      </div><br>
+      <div class="field">
+        <input type="submit" id="click" value="S'authentifier">
+      </div><br>
+      <div class="pass-link">
+        <a href="#">Mot De Passe Oublié ?</a></div>
+      </div>
+    </form>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "manifest_version":2,
+    "name": "MeetCourseAnalyser",
+    "description":"système permettant d’alimenter une base de données des enregistrements de cours, et l’évolution de la qualité des séances",
+    "version":"1.0",
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action":{
+        "default_icon": "icon.PNG",
+        "default_popup":"form.html"
+    },
+
+    "icons":{
+        "128":"icon.PNG"
+    }
+}
